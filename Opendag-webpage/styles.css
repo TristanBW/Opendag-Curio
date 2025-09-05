@@ -1,10 +1,10 @@
-/* ====== BASE STYLES ====== */
+
 body {
     font-family: 'Roboto', Arial, sans-serif;
-    color: #184080; /* dark blue text */
+    color: #184080; 
     margin: 0;
     padding: 0;
-    background-color: #f4f8fc; /* very light blue/white */
+    background-color: #f4f8fc; 
     position: relative;
     min-height: 100vh;
     overflow-x: hidden;
@@ -30,7 +30,7 @@ body {
     -webkit-mask-image: linear-gradient(to bottom, #3b7dd8 0%, rgba(59,125,216,0.7) 10%, rgba(59,125,216,0.2) 80%, transparent 100%);
 }
 
-/* ====== HEADER ====== */
+
 .header {
     background: linear-gradient(to bottom, #3b7dd8 90%, rgba(59,125,216,0.0) 100%);
     color: #fff;
@@ -87,7 +87,7 @@ body {
     letter-spacing: 1px;
 }
 
-/* ====== BOXES & IMAGES ====== */
+
 .box-row {
     display: flex;
     justify-content: center;
@@ -179,7 +179,6 @@ body {
     font-size: 1.2em;
 }
 
-/* ====== FOOTER ====== */
 .footer {
     background: linear-gradient(to top, #3b7dd8 90%, rgba(59,125,216,0.0) 100%);
     color: #fff;
